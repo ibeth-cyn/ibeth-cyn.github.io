@@ -114,5 +114,34 @@ footer{
 }
 
 article{
-    margin-left: 25%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: grid;
+}
+
+blockquote{
+    background-color: beige;
+    text-align: center;
+}
+
+article p{
+    font-size: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 1.05em;
+}
+
+.next{
+    margin-left: 80%;
+}
+
+.prev{
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
