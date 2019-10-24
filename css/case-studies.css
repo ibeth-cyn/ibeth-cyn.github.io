@@ -145,3 +145,8 @@ h3{
     display: grid;
     grid-template-columns: 20% 80%;
 }
+
+.goals{
+    display: grid;
+    grid-template-columns: 57% 43%;
+}
