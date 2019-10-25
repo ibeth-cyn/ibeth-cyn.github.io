@@ -155,6 +155,15 @@ h3{
     grid-template-columns: 40% 57%;
 }
 
+.gols{
+    display: grid;
+    grid-template-columns: 75% auto;
+    grid-gap: 5%;
+}
+
+.gols img{
+    height: 100%;
+}
 article img{
     border: 3px solid beige;
     height: auto;
