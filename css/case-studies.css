@@ -157,14 +157,36 @@ h3{
 
 .gols{
     display: grid;
-    grid-template-columns: 75% auto;
-    grid-gap: 5%;
+    grid-template-columns: 75% 20%;
+    column-gap: 3%;
 }
 
 .gols img{
-    height: 100%;
+    height: 189px;
 }
 article img{
     border: 3px solid beige;
-    height: auto;
+}
+
+.info{
+    display: grid;
+    grid-gap: 5em;
+    grid-template-columns: 40% 40%;
+    margin-bottom: 5%;
+}
+
+.info img{
+    height: 200px;
+    width: 80%;
+}
+
+.designs{
+    display: grid;
+    grid-gap: 5em;
+    grid-template-columns: 40% 40%;
+}
+
+.designs img{
+    height: 750px;
+    width: 100%;
 }
