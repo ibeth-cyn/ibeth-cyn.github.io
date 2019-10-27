@@ -190,3 +190,9 @@ article img{
     height: 750px;
     width: 100%;
 }
+
+.sub::first-letter{
+    font-weight: bold;
+    initial-letter: 3;
+    font-size: 4rem;
+}
