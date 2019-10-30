@@ -207,3 +207,7 @@ article img{
 .experience img{
     width: 80%;
 }
+
+.experience p{
+    padding-right: 17%;
+}
