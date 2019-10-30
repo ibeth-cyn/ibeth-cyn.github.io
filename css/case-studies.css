@@ -196,3 +196,14 @@ article img{
     initial-letter: 3;
     font-size: 4rem;
 }
+
+.experience{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto;
+    grid-gap: 2%;
+}
+
+.experience img{
+    width: 80%;
+}
