@@ -164,6 +164,7 @@ h3{
 .gols img{
     height: 189px;
 }
+
 article img{
     border: 3px solid black;
 }
@@ -209,5 +210,5 @@ article img{
 }
 
 .experience p{
-    padding-right: 17%;
+    padding-right: 9%;
 }
