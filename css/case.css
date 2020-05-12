@@ -1,0 +1,111 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-left: 35%;
+}
+
+li{
+    font-family: 'Halant', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#909090;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+a{
+    color: #909090;
+}
+
+.smenu{
+    overflow: hidden;
+}
+
+.smenu a{
+    display: block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin: 4px 0;
+    position: relative;
+}
+
+.pages{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.details-class{
+    width: 75%;
+    border: 2px solid black;
+}
+
+.details-class p{
+    margin: 0;
+    font-family: 'Halant', serif;
+    font-size: 1.25rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.details-class .details{
+    margin-top: 3%;
+}
+
+.pages li.active{
+    color: black;
+    border-left: 6px solid #4CAF50;
+}
+
+.warning{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: 'Halant', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 60%;
+    text-align: center;
+    padding-left: 0;
+    border-radius: 8px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 85% 15%  ;
+}
+
+.info-wire{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+img{
+    height: 160px;
+}
+
+.info-wire p{
+    font-size: 0.7rem;
+}
+
+.designs{
+    display: block;
+}
+
+.designs img{
+    height: auto;
+    width: 80%;
+    margin-left: 9%;
+}
