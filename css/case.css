@@ -46,7 +46,7 @@ a{
 
 .details-class{
     width: 92%;
-    border: 2px solid black;
+    border-left: 2px solid black;
 }
 
 .details-class p{
@@ -54,7 +54,6 @@ a{
     font-family: 'Halant', serif;
     font-size: 1.25rem;
     margin-left: 5%;
-    margin-right: 5%;
 }
 
 .details-class .details{
@@ -87,18 +86,13 @@ a{
     grid-template-columns: 85% 15%  ;
 }
 
-.info-wire{
-    display: grid;
-    margin-left: 6%;
-    grid-template-columns: 50% 50%;
-}
-
 img{
-    height: 200px;
+    margin: 0;
+    height: 400px;
 }
 
 .info-wire p{
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .designs{
@@ -107,6 +101,5 @@ img{
 
 .designs img{
     height: auto;
-    width: 80%;
-    margin-left: 9%;
+    width: 100%;
 }
